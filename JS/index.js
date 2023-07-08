@@ -24,7 +24,7 @@ app.post("/letschat", async(req,res) => {
                 "content":`${prompt}`
             }],
             max_tokens: 300,
-            temperature: 0.5,
+            temperature: 2,
             top_p: 1,
             frequency_penalty: 0.75,
             presence_penalty: 0,
